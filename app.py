@@ -3,7 +3,7 @@ import qbittorrentapi
 
 # Initialize the qBittorrent client
 qbt_client = qbittorrentapi.Client(host='localhost:8080')  # Replace with your qBittorrent Web UI address
-qbt_client.login('your_username', 'your_password')  # Replace with your qBittorrent username and password
+qbt_client.login('admin', 'adminadmin')  # Replace with your qBittorrent username and password
 
 # Streamlit app title and description
 st.title("Torrent Downloader App")
